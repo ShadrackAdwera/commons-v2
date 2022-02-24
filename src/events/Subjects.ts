@@ -1,4 +1,4 @@
 export enum Subjects {
-    "category:created",
-    "category:updated"
+    CategoryCreated="category:created",
+    CategoryUpdated="category:updated"
 }
