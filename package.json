@@ -1,5 +1,5 @@
 {
-  "name": "@adwera/v2-common",
+  "name": "@adwesh/v2-common",
   "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
