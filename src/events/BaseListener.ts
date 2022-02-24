@@ -8,7 +8,7 @@ interface Event {
 
 export abstract class Listener<T extends Event> {
     private client: Stan;
-    abstract subject: string;
+    abstract subject: T['subject'];
     abstract queueGroupName: string;
     abstract onMessage(data: T['data'], msg: Message) : void;
     protected ackWait: number = 5*1000;
