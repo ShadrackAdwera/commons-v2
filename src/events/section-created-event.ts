@@ -5,5 +5,6 @@ export interface SectionCreatedEvent {
     data: {
         id: string; 
         title: string;
+        createdBy: string;
     }
 }

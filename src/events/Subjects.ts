@@ -2,5 +2,6 @@ export enum Subjects {
     CategoryCreated="category:created",
     CategoryUpdated="category:updated",
     UserCreated="user:created",
-    SectionCreated="section:created"
+    SectionCreated="section:created",
+    SectionUpdated="section:updated"
 }
