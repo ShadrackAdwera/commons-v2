@@ -3,7 +3,7 @@ import { Subjects } from "./Subjects";
 export interface CategoryCreatedEvent {
     subject: Subjects.CategoryCreated,
     data: {
-        id: number; 
+        id: string; 
         title: string;
         description: string;
         priority: string;
