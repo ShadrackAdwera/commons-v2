@@ -7,3 +7,5 @@ export * from './events/Subjects';
 export * from './events/category-created-event';
 export * from './events/section-created-event';
 export * from './events/section-updated-event';
+export * from './events/task-created-event';
+export * from './events/task-updated-event';
